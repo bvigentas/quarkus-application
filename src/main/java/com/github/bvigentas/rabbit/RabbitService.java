@@ -15,7 +15,7 @@ public class RabbitService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RabbitService.class);
     
-    public Connection getConnection() {
+    protected Connection getConnection() {
 
         ConnectionFactory factory = new ConnectionFactory();
 
